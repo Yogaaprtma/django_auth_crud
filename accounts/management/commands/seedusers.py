@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from ...models import CustomUser
+from accounts.models import CustomUser
 
 class Command(BaseCommand):
     help = 'Seeds the database with initial user data'
