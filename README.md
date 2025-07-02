@@ -1,6 +1,4 @@
-# Proyek Tugas C: Django Full-stack Auth & CRUD
-
-Ini adalah proyek full-stack yang dibangun menggunakan **Django** dan **Django Rest Framework (DRF)** sebagai pemenuhan Tugas C dalam proses seleksi Software Engineer di PT Informatika Media Pratama.
+# Django Full-stack Auth & CRUD
 
 Aplikasi ini menyediakan REST API yang fungsional dan aman untuk otentikasi (SignUp, SignIn, SignOut) dan operasi CRUD (Create, Read, Update, Delete) untuk data pengguna.
 
