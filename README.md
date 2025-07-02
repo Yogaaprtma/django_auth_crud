@@ -52,7 +52,7 @@ Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah ber
 **2. Clone & Setup**
 ```bash
 # Clone repository ini (jika belum)
-git clone <url-repository-anda>
+git clone https://github.com/Yogaaprtma/django_auth_crud
 
 # Masuk ke direktori proyek Django
 cd django-auth-crud
@@ -65,12 +65,8 @@ python -m venv venv
 source venv/bin/activate  # Untuk Linux/macOS
 # venv\Scripts\activate    # Untuk Windows
 
-# Buat file requirements.txt jika belum ada
-pip freeze > requirements.txt
-
-# Instal semua paket yang dibutuhkan
-pip install -r requirements.txt
-```
+Install dependencies:
+pip install django==5.2.3 djangorestframework
 
 **4. Database Setup**
 ```bash
